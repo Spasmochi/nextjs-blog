@@ -8,7 +8,6 @@ export default function Home() {
       <Head>
         <title>NextJS Test App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="components/all.css" />
       </Head>
 
       <main>
