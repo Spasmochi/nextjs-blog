@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>NextJS Test App</title>
+        <title>Test App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
