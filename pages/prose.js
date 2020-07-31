@@ -4,7 +4,7 @@ import Content from "../components/content";
 
 function prose() {
   return (
-    <div className="container">
+    <div className="">
       <Head>
         <title>Prose</title>
         <link rel="icon" href="/favicon.ico" />

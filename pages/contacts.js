@@ -1,15 +1,15 @@
 import Sidebar from "../components/sidebar";
 import Head from "next/head";
 import TeamProfiles from "../components/teamprofiles";
-function teams() {
+function contacts() {
   return (
     <div>
       <Head>
-        <title>Teams</title>
+        <title>contacts</title>
       </Head>
-      <Sidebar title="Teams" Content={[<TeamProfiles key="8" />]} />
+      <Sidebar title="Contacts" content={[<TeamProfiles key="4" />]} />
     </div>
   );
 }
 
-export default teams;
+export default contacts;
