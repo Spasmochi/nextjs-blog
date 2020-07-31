@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Sidebar from "../components/sidebar";
 import GridList from "../components/gridList";
+import CardHeading from "../components/cards/cardheadingaction";
+import Card from "../components/cards/card";
 
 export default function Home() {
   return (
@@ -11,7 +13,10 @@ export default function Home() {
       </Head>
 
       <main>
-        <Sidebar title="Dashboard" content={[<GridList key="5" />]} />
+        <Sidebar
+          title="Dashboard"
+          content={[<GridList key="5" />, <Card content={[<CardHeading />]} />]}
+        />
       </main>
     </div>
   );

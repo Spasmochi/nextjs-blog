@@ -74,14 +74,16 @@ function Sidebar(props) {
                         <a
                           className={
                             "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                            (props.title === "Dashboard" ? " bg-gray-100" : "")
+                            (props.title === "Dashboard"
+                              ? " bg-gray-200 hover:bg-gray-200"
+                              : "")
                           }
                         >
                           <svg
                             className={
                               "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                               (props.title === "Dashboard"
-                                ? " text-gray-500"
+                                ? " text-gray-600 group-hover:text-gray-600"
                                 : " text-gray-400")
                             }
                             fill="none"
@@ -102,14 +104,16 @@ function Sidebar(props) {
                         <a
                           className={
                             "mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition ease-in-out duration-150" +
-                            (props.title === "Contacts" ? " bg-gray-100" : "")
+                            (props.title === "Contacts"
+                              ? " bg-gray-200 hover:bg-gray-200"
+                              : "")
                           }
                         >
                           <svg
                             className={
                               "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                               (props.title === "Contacts"
-                                ? " text-gray-500"
+                                ? " text-gray-600 group-hover:text-gray-600"
                                 : " text-gray-400")
                             }
                             fill="none"
@@ -130,14 +134,16 @@ function Sidebar(props) {
                         href="#"
                         className={
                           "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                          (props.title === "Projects" ? " bg-gray-100" : "")
+                          (props.title === "Projects"
+                            ? " bg-gray-200 hover:bg-gray-200"
+                            : "")
                         }
                       >
                         <svg
                           className={
                             "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                             (props.title === "Projects"
-                              ? " text-gray-500"
+                              ? " text-gray-600 group-hover:text-gray-600"
                               : " text-gray-400")
                           }
                           fill="none"
@@ -157,14 +163,16 @@ function Sidebar(props) {
                         href="#"
                         className={
                           "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                          (props.title === "Calendar" ? " bg-gray-100" : "")
+                          (props.title === "Calendar"
+                            ? " bg-gray-200 hover:bg-gray-200"
+                            : "")
                         }
                       >
                         <svg
                           className={
                             "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                             (props.title === "Calendar"
-                              ? " text-gray-500"
+                              ? " text-gray-600 group-hover:text-gray-600"
                               : " text-gray-400")
                           }
                           fill="none"
@@ -184,14 +192,16 @@ function Sidebar(props) {
                         <a
                           className={
                             "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                            (props.title === "Prose" ? " bg-gray-100" : "")
+                            (props.title === "Prose"
+                              ? " bg-gray-200 hover:bg-gray-200"
+                              : "")
                           }
                         >
                           <svg
                             className={
                               "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                               (props.title === "Prose"
-                                ? " text-gray-500"
+                                ? " text-gray-600 group-hover:text-gray-600"
                                 : " text-gray-400")
                             }
                             fill="none"
@@ -216,7 +226,7 @@ function Sidebar(props) {
                           className={
                             "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                             (props.title === "Reports"
-                              ? " text-gray-500"
+                              ? " text-gray-600 group-hover:text-gray-600"
                               : " text-gray-400")
                           }
                           fill="none"
@@ -284,14 +294,16 @@ function Sidebar(props) {
                     <a
                       className={
                         "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                        (props.title === "Dashboard" ? " bg-gray-100" : "")
+                        (props.title === "Dashboard"
+                          ? " bg-gray-200 hover:bg-gray-200"
+                          : "")
                       }
                     >
                       <svg
                         className={
                           "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                           (props.title === "Dashboard"
-                            ? " text-gray-500"
+                            ? " text-gray-600 group-hover:text-gray-600"
                             : " text-gray-400")
                         }
                         fill="none"
@@ -312,14 +324,16 @@ function Sidebar(props) {
                     <a
                       className={
                         "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                        (props.title === "Contacts" ? " bg-gray-100" : "")
+                        (props.title === "Contacts"
+                          ? " bg-gray-200 hover:bg-gray-200"
+                          : "")
                       }
                     >
                       <svg
                         className={
                           "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                           (props.title === "Contacts"
-                            ? " text-gray-500"
+                            ? " text-gray-600 group-hover:text-gray-600"
                             : " text-gray-400")
                         }
                         fill="none"
@@ -340,14 +354,16 @@ function Sidebar(props) {
                     href="#"
                     className={
                       "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                      (props.title === "Projects" ? " bg-gray-100" : "")
+                      (props.title === "Projects"
+                        ? " bg-gray-200 hover:bg-gray-200"
+                        : "")
                     }
                   >
                     <svg
                       className={
                         "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                         (props.title === "Projects"
-                          ? " text-gray-500"
+                          ? " text-gray-600 group-hover:text-gray-600"
                           : " text-gray-400")
                       }
                       fill="none"
@@ -367,14 +383,16 @@ function Sidebar(props) {
                     href="#"
                     className={
                       "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                      (props.title === "Calendar" ? " bg-gray-100" : "")
+                      (props.title === "Calendar"
+                        ? " bg-gray-200 hover:bg-gray-200"
+                        : "")
                     }
                   >
                     <svg
                       className={
                         "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                         (props.title === "Calendar"
-                          ? " text-gray-500"
+                          ? " text-gray-600 group-hover:text-gray-600"
                           : " text-gray-400")
                       }
                       fill="none"
@@ -394,14 +412,16 @@ function Sidebar(props) {
                     <a
                       className={
                         "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                        (props.title === "Prose" ? " bg-gray-100" : "")
+                        (props.title === "Prose"
+                          ? " bg-gray-200 hover:bg-gray-200"
+                          : "")
                       }
                     >
                       <svg
                         className={
                           "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                           (props.title === "Prose"
-                            ? " text-gray-500"
+                            ? " text-gray-600 group-hover:text-gray-600"
                             : " text-gray-400")
                         }
                         fill="none"
@@ -422,14 +442,16 @@ function Sidebar(props) {
                     href="#"
                     className={
                       "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                      (props.title === "Reports" ? " bg-gray-100" : "")
+                      (props.title === "Reports"
+                        ? " bg-gray-200 hover:bg-gray-200"
+                        : "")
                     }
                   >
                     <svg
                       className={
                         "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
                         (props.title === "Reports"
-                          ? " text-gray-500"
+                          ? " text-gray-600 group-hover:text-gray-600"
                           : " text-gray-400")
                       }
                       fill="none"
