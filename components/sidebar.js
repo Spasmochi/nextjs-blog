@@ -1,7 +1,6 @@
 import { useState } from "react";
 import Transition from "../hooks/transition";
 import Link from "next/link";
-import SetFocus from "../hooks/setfocus";
 
 function Sidebar(props) {
   const [sidebarOpen, setsidebarOpen] = useState(false);
