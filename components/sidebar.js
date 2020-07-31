@@ -78,7 +78,12 @@ function Sidebar(props) {
                           }
                         >
                           <svg
-                            className="mr-4 h-6 w-6 text-gray-500 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
+                            className={
+                              "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                              (props.title === "Dashboard"
+                                ? " text-gray-500"
+                                : " text-gray-400")
+                            }
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -101,7 +106,12 @@ function Sidebar(props) {
                           }
                         >
                           <svg
-                            className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                            className={
+                              "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                              (props.title === "Contacts"
+                                ? " text-gray-500"
+                                : " text-gray-400")
+                            }
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -124,7 +134,12 @@ function Sidebar(props) {
                         }
                       >
                         <svg
-                          className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                          className={
+                            "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                            (props.title === "Projects"
+                              ? " text-gray-500"
+                              : " text-gray-400")
+                          }
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -146,7 +161,12 @@ function Sidebar(props) {
                         }
                       >
                         <svg
-                          className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                          className={
+                            "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                            (props.title === "Calendar"
+                              ? " text-gray-500"
+                              : " text-gray-400")
+                          }
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -168,7 +188,12 @@ function Sidebar(props) {
                           }
                         >
                           <svg
-                            className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                            className={
+                              "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                              (props.title === "Prose"
+                                ? " text-gray-500"
+                                : " text-gray-400")
+                            }
                             fill="none"
                             viewBox="0 0 24 24"
                             stroke="currentColor"
@@ -188,7 +213,12 @@ function Sidebar(props) {
                         className="mt-1 group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-600 rounded-md hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-100 transition ease-in-out duration-150"
                       >
                         <svg
-                          className="mr-4 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                          className={
+                            "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                            (props.title === "Reports"
+                              ? " text-gray-500"
+                              : " text-gray-400")
+                          }
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
@@ -258,7 +288,12 @@ function Sidebar(props) {
                       }
                     >
                       <svg
-                        className="mr-3 h-6 w-6 text-gray-500 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150"
+                        className={
+                          "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                          (props.title === "Dashboard"
+                            ? " text-gray-500"
+                            : " text-gray-400")
+                        }
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -281,7 +316,12 @@ function Sidebar(props) {
                       }
                     >
                       <svg
-                        className="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                        className={
+                          "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                          (props.title === "Contacts"
+                            ? " text-gray-500"
+                            : " text-gray-400")
+                        }
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -304,7 +344,12 @@ function Sidebar(props) {
                     }
                   >
                     <svg
-                      className="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                      className={
+                        "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                        (props.title === "Projects"
+                          ? " text-gray-500"
+                          : " text-gray-400")
+                      }
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -326,7 +371,12 @@ function Sidebar(props) {
                     }
                   >
                     <svg
-                      className="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                      className={
+                        "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                        (props.title === "Calendar"
+                          ? " text-gray-500"
+                          : " text-gray-400")
+                      }
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -348,7 +398,12 @@ function Sidebar(props) {
                       }
                     >
                       <svg
-                        className="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                        className={
+                          "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                          (props.title === "Prose"
+                            ? " text-gray-500"
+                            : " text-gray-400")
+                        }
                         fill="none"
                         viewBox="0 0 24 24"
                         stroke="currentColor"
@@ -371,7 +426,12 @@ function Sidebar(props) {
                     }
                   >
                     <svg
-                      className="mr-3 h-6 w-6 text-gray-400 group-hover:text-gray-500 group-focus:text-gray-500 transition ease-in-out duration-150"
+                      className={
+                        "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                        (props.title === "Reports"
+                          ? " text-gray-500"
+                          : " text-gray-400")
+                      }
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
