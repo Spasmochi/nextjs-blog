@@ -1,17 +1,17 @@
 import Head from "next/head";
-import Footer from "../components/footer";
 import Sidebar from "../components/sidebar";
+import GridList from "../components/gridList";
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Test App</title>
+        <title>Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Sidebar />
+        <Sidebar title="Dashboard" content={[<GridList />]} />
       </main>
     </div>
   );

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Transition from "../hooks/transition";
+import Link from "next/link";
 
 function Sidebar() {
   const [sidebarOpen, setsidebarOpen] = useState(false);
