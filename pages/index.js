@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Sidebar title="Dashboard" content={[<GridList />]} />
+        <Sidebar title="Dashboard" content={[<GridList key="5" />]} />
       </main>
     </div>
   );

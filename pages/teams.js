@@ -7,7 +7,7 @@ function teams() {
       <Head>
         <title>Teams</title>
       </Head>
-      <Sidebar title="Teams" Content="" />
+      <Sidebar title="Teams" Content={[]} />
     </div>
   );
 }
