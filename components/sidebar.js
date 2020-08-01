@@ -130,35 +130,36 @@ function Sidebar(props) {
                           Contacts
                         </a>
                       </Link>
-                      <a
-                        href="#"
-                        className={
-                          "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                          (props.title === "Projects"
-                            ? " bg-gray-200 hover:bg-gray-200"
-                            : "")
-                        }
-                      >
-                        <svg
+                      <Link href="/projects">
+                        <a
                           className={
-                            "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                            "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
                             (props.title === "Projects"
-                              ? " text-gray-600 group-hover:text-gray-600"
-                              : " text-gray-400")
+                              ? " bg-gray-200 hover:bg-gray-200"
+                              : "")
                           }
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-                          />
-                        </svg>
-                        Projects
-                      </a>
+                          <svg
+                            className={
+                              "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                              (props.title === "Projects"
+                                ? " text-gray-600 group-hover:text-gray-600"
+                                : " text-gray-400")
+                            }
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                            />
+                          </svg>
+                          Projects
+                        </a>
+                      </Link>
                       <a
                         href="#"
                         className={
@@ -350,35 +351,36 @@ function Sidebar(props) {
                       Contacts
                     </a>
                   </Link>
-                  <a
-                    href="#"
-                    className={
-                      "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                      (props.title === "Projects"
-                        ? " bg-gray-200 hover:bg-gray-200"
-                        : "")
-                    }
-                  >
-                    <svg
+                  <Link href="/projects">
+                    <a
                       className={
-                        "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                        "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
                         (props.title === "Projects"
-                          ? " text-gray-600 group-hover:text-gray-600"
-                          : " text-gray-400")
+                          ? " bg-gray-200 hover:bg-gray-200"
+                          : "")
                       }
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
-                      />
-                    </svg>
-                    Projects
-                  </a>
+                      <svg
+                        className={
+                          "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                          (props.title === "Projects"
+                            ? " text-gray-600 group-hover:text-gray-600"
+                            : " text-gray-400")
+                        }
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"
+                        />
+                      </svg>
+                      Projects
+                    </a>
+                  </Link>
                   <a
                     href="#"
                     className={
