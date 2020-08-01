@@ -527,7 +527,7 @@ function Sidebar(props) {
                   {props.title}
                 </h1>
               </div>
-              <div className="align-middle inline-block min-w-full border-b border-gray-200">
+              <div className="align-middle inline-block min-w-full ">
                 {props.content}
               </div>
             </div>

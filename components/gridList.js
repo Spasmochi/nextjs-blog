@@ -1,7 +1,7 @@
 function gridList() {
   return (
     <div>
-      <div>
+      <div className="px-6">
         <h2 className="text-gray-500 text-xs font-medium uppercase tracking-wide">
           Pinned Projects
         </h2>
