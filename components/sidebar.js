@@ -527,7 +527,7 @@ function Sidebar(props) {
                   {props.title}
                 </h1>
               </div>
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
+              <div className="flex-1 relative z-0 overflow-y-auto focus:outline-none">
                 {props.content}
               </div>
             </div>
