@@ -1,8 +1,47 @@
 import ProjectCard from "./projectcard/projectcard";
-
+import MobileCard from "./projectcard/projectlistmobile";
 function projectslist(props) {
   return (
     <div>
+      <div class="mt-10 sm:hidden">
+        <div class="px-4 sm:px-6">
+          <h2 class="text-gray-500 text-xs font-medium uppercase tracking-wide">
+            Projects
+          </h2>
+        </div>
+        <ul class="mt-3 border-t border-gray-200 divide-y divide-gray-100">
+          <MobileCard
+            projectColor="bg-pink-600"
+            projectName="GraphQL API"
+            sectionRef="Engineering"
+          />
+          <MobileCard
+            projectColor="bg-green-400"
+            projectName="Provision"
+            sectionRef="Backend"
+          />
+          <MobileCard
+            projectColor="bg-teal-200"
+            projectName="User Research"
+            sectionRef="Marketing"
+          />
+          <MobileCard
+            projectColor="bg-red-400"
+            projectName="New Users Panel"
+            sectionRef="Design"
+          />
+          <MobileCard
+            projectColor="bg-indigo-700"
+            projectName="Unit Tests"
+            sectionRef="Engineering"
+          />
+          <MobileCard
+            projectColor="bg-yellow-200"
+            projectName="Tailwind Macro"
+            sectionRef="UI"
+          />
+        </ul>
+      </div>
       <div className="hidden mt-8 sm:block">
         <div className="align-middle inline-block min-w-full border-b border-gray-200">
           <table className="min-w-full">
