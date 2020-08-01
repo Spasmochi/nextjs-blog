@@ -521,13 +521,13 @@ function Sidebar(props) {
             className="flex-1 relative z-0 overflow-y-auto focus:outline-none"
             tabIndex="0"
           >
-            <div className="pt-2 pb-6 md:py-6">
+            <div className="pt-2 pb-6 md:py-4">
               <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
                 <h1 className="text-2xl font-semibold text-gray-900">
                   {props.title}
                 </h1>
               </div>
-              <div className="flex-1 relative z-0 overflow-y-auto focus:outline-none">
+              <div className="align-middle inline-block min-w-full border-b border-gray-200">
                 {props.content}
               </div>
             </div>
