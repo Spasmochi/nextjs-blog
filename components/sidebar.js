@@ -160,35 +160,36 @@ function Sidebar(props) {
                           Projects
                         </a>
                       </Link>
-                      <a
-                        href="#"
-                        className={
-                          "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                          (props.title === "Calendar"
-                            ? " bg-gray-200 hover:bg-gray-200"
-                            : "")
-                        }
-                      >
-                        <svg
+                      <Link href="/Calendar">
+                        <a
                           className={
-                            "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                            "group flex items-center px-2 py-2 text-base leading-6 font-medium text-gray-900 rounded-md focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
                             (props.title === "Calendar"
-                              ? " text-gray-600 group-hover:text-gray-600"
-                              : " text-gray-400")
+                              ? " bg-gray-200 hover:bg-gray-200"
+                              : "")
                           }
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
                         >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth="2"
-                            d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                          />
-                        </svg>
-                        Calendar
-                      </a>
+                          <svg
+                            className={
+                              "mr-4 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                              (props.title === "Calendar"
+                                ? " text-gray-600 group-hover:text-gray-600"
+                                : " text-gray-400")
+                            }
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                          >
+                            <path
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                            />
+                          </svg>
+                          Calendar
+                        </a>
+                      </Link>
                       <Link href="/prose">
                         <a
                           className={
@@ -381,35 +382,36 @@ function Sidebar(props) {
                       Projects
                     </a>
                   </Link>
-                  <a
-                    href="#"
-                    className={
-                      "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
-                      (props.title === "Calendar"
-                        ? " bg-gray-200 hover:bg-gray-200"
-                        : "")
-                    }
-                  >
-                    <svg
+                  <Link href="/Calendar">
+                    <a
                       className={
-                        "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                        "group flex items-center px-2 py-2 text-sm leading-5 font-medium text-gray-900 rounded-md hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:bg-gray-200 transition ease-in-out duration-150" +
                         (props.title === "Calendar"
-                          ? " text-gray-600 group-hover:text-gray-600"
-                          : " text-gray-400")
+                          ? " bg-gray-200 hover:bg-gray-200"
+                          : "")
                       }
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
-                      />
-                    </svg>
-                    Calendar
-                  </a>
+                      <svg
+                        className={
+                          "mr-3 h-6 w-6 group-hover:text-gray-500 group-focus:text-gray-600 transition ease-in-out duration-150" +
+                          (props.title === "Calendar"
+                            ? " text-gray-600 group-hover:text-gray-600"
+                            : " text-gray-400")
+                        }
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
+                        />
+                      </svg>
+                      Calendar
+                    </a>
+                  </Link>
                   <Link href="/prose">
                     <a
                       className={
